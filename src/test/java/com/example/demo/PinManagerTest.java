@@ -1,15 +1,17 @@
-import static org.junit.Assert.assertEquals;
+package com.example.demo;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class UserStory1Test {
-	static UserStory1 tester;
+import static org.junit.Assert.assertEquals;
+
+public class PinManagerTest {
+	static PinManager tester;
 
 	  @BeforeClass
 	  public static void testSetup() {
-	    tester = new UserStory1();
+	    tester = new PinManager();
 	  }
 
 	  @AfterClass

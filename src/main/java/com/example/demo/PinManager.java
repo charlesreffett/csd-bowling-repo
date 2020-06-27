@@ -1,5 +1,6 @@
+package com.example.demo;
 
-public class UserStory1 {
+public class PinManager {
 	public int getPins(int a) {
 		   return a;
 		}

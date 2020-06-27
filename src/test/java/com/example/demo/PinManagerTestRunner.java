@@ -1,8 +1,10 @@
+package com.example.demo;
+
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-public class UserStory1TestRunner {
+public class PinManagerTestRunner {
 	   public static void main(String[] args) {
 		   
 		   System.out.println("              . --- .");
@@ -20,7 +22,7 @@ public class UserStory1TestRunner {
 		   System.out.println("        ~;_  >- . . -<  _i~");
 		   System.out.println("           `'         `'");
 		   System.out.println("");
-	      Result result = JUnitCore.runClasses(UserStory1Test.class);
+	      Result result = JUnitCore.runClasses(PinManagerTest.class);
 			
 	      for (Failure failure : result.getFailures()) {
 	         System.out.println(failure.toString());
