@@ -1,3 +1,4 @@
+package com.example.demo;
 
 public class UserStoryTotalForOneFrame {
 	public int getPins(int ball1, int ball2) {
