@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("Index", "FIFA 2018");
+        model.addAttribute("pin-count", "2");
         return "index";
     }
 }
