@@ -14,6 +14,7 @@ const webpackConfig = require('./webpack.config');
 
 mix
 	.webpackConfig(webpackConfig)
-	.version()
-	.js('assets/js/app.js', 'src/main/resources/static/js')
-    .sass('assets/sass/app.scss', 'src/main/resources/static/css');
+	.setPublicPath('src/main/resources/static')
+	.js('assets/js/app.js', 'js')
+    .sass('assets/sass/app.scss', 'css')
+	.version();
