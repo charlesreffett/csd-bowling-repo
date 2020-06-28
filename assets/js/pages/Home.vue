@@ -1,7 +1,15 @@
 <template>
     <div>
-        <el-input v-model="send_pins"></el-input>
-        <el-button @click="buttonClick">Submit</el-button>
+        <el-header>
+            <label-wrap>The Flying Penguins Bowling Alley</label-wrap>
+        </el-header>
+        <el-container>
+            <el-aside width="20%"></el-aside>
+            <el-main>
+                <el-input v-model="send_pins"></el-input>
+                <el-button @click="buttonClick">Submit</el-button>
+            </el-main>
+        </el-container>
     </div>
 </template>
 <script>
