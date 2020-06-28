@@ -1,14 +1,15 @@
 package com.example.demo;
 
-import java.security.InvalidParameterException;
-
 public class PinManager {
 
+    public PinError pe = new PinError();
     int pins = 0;
 
     public void setPins(int a) {
         if(a > 10){
-            throw new InvalidParameterException("Illegal count: Cannot have more than 10 pins");
+            this.pe.setMessage("Illegal Pin Count: Pins cannot be more than 10");
+            return;
+            //throw new InvalidParameterException("Illegal Pin Count: Pins cannot be more than 10");
         }
         this.pins = a;
     }
