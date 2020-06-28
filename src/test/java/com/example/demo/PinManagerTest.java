@@ -21,7 +21,8 @@ public class PinManagerTest {
 
 	  @Test
 	  public void test2Pins() {
-	    assertEquals("Result", 2, tester.getPins(2));
+	  	tester.setPins(2);
+	    assertEquals("Result", 2, tester.getPins());
 	  }
 
 }

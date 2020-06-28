@@ -1,6 +1,5 @@
 <template>
     <div class="page">
-        Hello Page
         <router-view></router-view>
     </div>
 </template>
