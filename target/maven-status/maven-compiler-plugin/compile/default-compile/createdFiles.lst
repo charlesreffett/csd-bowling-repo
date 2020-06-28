@@ -1,2 +1,4 @@
-UserStory1.class
+com/example/demo/UserStoryTotalForOneFrame.class
+com/example/demo/MainController.class
 com/example/demo/BowlingAlleyApplication.class
+com/example/demo/PinManager.class

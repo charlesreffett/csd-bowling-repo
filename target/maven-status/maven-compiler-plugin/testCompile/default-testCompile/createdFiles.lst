@@ -1,2 +1,4 @@
 com/example/demo/BowlingAlleyApplicationTests.class
-UserStory1Test.class
+com/example/demo/PinManagerTest.class
+com/example/demo/UserStoryTotalForOneFrameTest.class
+com/example/demo/PinManagerTestRunner.class

@@ -24,9 +24,16 @@
   		  <groupId>io.cucumber</groupId>
   	 	 <artifactId>cucumber-junit</artifactId>
   	 	 <version>6.1.2</version>
-  	 	 <scope>test</scope>
+  	 	 <scope>provided</scope>
 		</dependency>
-	
+		
+	   <dependency>
+  		  <groupId>io.cucumber</groupId>
+  	 	  <artifactId>cucumber-java</artifactId>
+  	 	  <version>6.1.2</version>
+  	 	  <scope>provided</scope>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -51,11 +58,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

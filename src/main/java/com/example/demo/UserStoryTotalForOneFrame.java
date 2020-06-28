@@ -1,8 +1,15 @@
 package com.example.demo;
 
 public class UserStoryTotalForOneFrame {
-	public int getPins(int ball1, int ball2) {
-		   return ball1 + ball2;
-		}
+	private int totalPins;
+	public void resetTotalPins()
+	{
+		totalPins = 0;
+	}
+	
+	public int getPins(int pinsFromBall) {
+		   totalPins += pinsFromBall;
+		   return totalPins;
+	}
 
 }
