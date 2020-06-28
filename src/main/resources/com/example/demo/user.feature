@@ -33,3 +33,12 @@ Feature: Bowling
     When I knock down 6 pins on the first ball
     And 4 pins on the second ball
     Then the total will show 10
+
+#  @tag1
+#  Scenario Outline: Total of Two Balls for One Frame
+#    Given I am bowling2
+#    When bowl
+#      | ball1  | ball2 | total  |
+#      | 2      | 4     | 6      |
+#      | 6      | 4     | 10     |
+#    Then total
